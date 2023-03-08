@@ -15,6 +15,7 @@ LinkedIn: https://www.linkedin.com/in/ahbond/
 SJSU: https://www.sjsu.edu/people/andrew.bond/
 Email: abptlm@gmail.com
 """
+
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 
