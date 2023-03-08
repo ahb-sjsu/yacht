@@ -13,16 +13,3 @@ LinkedIn: https://www.linkedin.com/in/ahbond/
 SJSU: https://www.sjsu.edu/people/andrew.bond/
 Email: abptlm@gmail.com
 """
-
-from flask import Flask, render_template
-import dash_2
-
-app = Flask(__name__)
-
-# Define your Flask routes
-@app.route('/')
-def index():
-    return render_template('index.html', gauge1=dash-2.gauge1, gauge2=dash-2.gauge2)
-
-if __name__ == '__main__':
-    app.run(debug=True)
