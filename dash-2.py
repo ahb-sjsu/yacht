@@ -8,19 +8,17 @@ Python Developer | Network Designer | Superyacht Builder (M/Y Eris)
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 
 LinkedIn: https://www.linkedin.com/in/ahbond/
 SJSU: https://www.sjsu.edu/people/andrew.bond/
 Email: abptlm@gmail.com
 """
+
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
 
 fig = make_subplots(rows=2, cols=3, specs=[[{'type': 'indicator'}, {'type': 'indicator'}, {'type': 'indicator'}],
                                             [{'type': 'indicator'}, {'type': 'indicator'}, {'type': 'indicator'}]])
-
 
 gauge1 = go.Indicator(
     mode = "gauge+number",
@@ -111,8 +109,6 @@ gauge6 = go.Indicator(
                  {'range': [1650, 1800], 'color': 'rgb(180, 10, 28)'}],
              'threshold' : {'line': {'color': "red", 'width': 4}, 'thickness': 0.75, 'value': 1240}})
 
-
-
 fig.add_trace(gauge1, row=1, col=2)
 fig.add_trace(gauge2, row=2, col=1)
 fig.add_trace(gauge3, row=2, col=2)
@@ -136,5 +132,4 @@ fig.update_layout(
     paper_bgcolor='white',
     plot_bgcolor='white'
 )
-
 fig.show()
