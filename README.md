@@ -1,4 +1,4 @@
 # yacht
 
 Prototype Dashboard for Main Engines
-![image](https://user-images.githubusercontent.com/14135501/223868787-8bb2da21-69c1-4262-9c68-9bbfc064603d.png)
+![image](https://user-images.githubusercontent.com/14135501/223914043-f3f53299-2519-4f02-9f95-b80dd5491e72.png)
